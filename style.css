@@ -33,6 +33,7 @@ body {
     font-size: 9rem;
     font-family: digital;
     color: yellow;
+    margin-bottom: 30px;
 }
 
 .container .buttons > * {
