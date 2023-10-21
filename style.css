@@ -1,0 +1,56 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7/digital-7.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #111;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.container #num {
+    font-size: 9rem;
+    font-family: digital;
+    color: yellow;
+}
+
+.container .buttons > * {
+    padding: .6em;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: .2rem;
+}
+
+.container .buttons #dec {
+    border: 2px solid blue;
+}
+
+.container .buttons #reset {
+    border: 2px solid red;
+}
+
+.container .buttons #inc {
+    border: 2px solid green;
+}
